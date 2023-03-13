@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #101416;
+}
+body .header {
+  background: #101416;
+  display: flex;
+}
+body .header .header__name {
+  justify-content: flex-start;
+  width: 100px;
+  height: 30px;
+  margin-left: 100px;
+  padding: 20px;
+}
+body .header .text__header {
+  display: flex;
+  width: 403px;
+  justify-content: center;
+  margin-left: 250px;
+}
+body .header .text__header .text__li {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  list-style-type: none;
+}
+body .header .text__header a {
+  text-decoration: none;
+}
+body .header .header__buttons {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  justify-content: flex-end;
+}
+body .header .header__buttons .header__btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A6A8AD;
+  padding: 8px 21px;
+}
+body .header .header__buttons .header__btn2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 21px;
+  gap: 10px;
+  width: 95px;
+  height: 35px;
+  color: black;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 32px;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.sound {
+  background: black;
+  display: flex;
+}
+.sound .sound__right {
+  width: 50%;
+}
+.sound .sound__right .sound__h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.sound .sound__right .sound__p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  color: #A6A8AD;
+}
+.sound .sound__right .sound__p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=sound.css.map */
