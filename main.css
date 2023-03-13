@@ -52,7 +52,6 @@ body .header .header__buttons .header__btn {
   line-height: 20px;
   color: #A6A8AD;
   padding: 8px 21px;
-  margin-left: 300px;
 }
 body .header .header__buttons .header__btn2 {
   box-sizing: border-box;
@@ -196,8 +195,8 @@ a {
   width: 60%;
 }
 .sound .sound__left .sound__img {
-  width: 880px;
-  height: 686px;
+  width: 770px;
+  height: 576px;
 }
 
 .header_fixed {
@@ -326,8 +325,8 @@ a {
   width: 60%;
 }
 .gear .gear__left .gear__img {
-  width: 980px;
-  height: 686px;
+  width: 770px;
+  height: 576px;
 }
 
 .tech {
