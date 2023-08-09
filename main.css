@@ -12,9 +12,9 @@ body .header {
 body .header .header__name {
   justify-content: flex-start;
   width: 100px;
-  height: 30px;
+  height: 35px;
   margin-left: 100px;
-  padding: 20px;
+  padding: 25px;
 }
 body .header .text__header {
   display: flex;
