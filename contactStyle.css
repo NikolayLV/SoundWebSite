@@ -10,6 +10,14 @@ html, body {
     font-family: 'Balsamiq Sans', sans-serif;
 }
 
+label {
+    font-size: 16px;
+}
+
+input {
+    background-color: #9a98ff;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -27,13 +35,14 @@ body {
 
 .card h2 {
     color: #aba8d4;
-    font-size: 40px;
+    font-size: 22px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .goBack {
     color: #9a98ff;
-    font-size: 20px;
+    font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 5px;
@@ -73,9 +82,9 @@ body {
     position: absolute;
     width: 90%;
     height: 100%;
-    background: transparent;
+    background-color: #aba8d4;
     outline: none;
-    font-size: 24px;
+    font-size: 16px;
     padding: 10px 0 10px 20px;
     border: 5px solid rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
@@ -86,7 +95,7 @@ body {
 .card .row .form-group label {
     line-height: 40px;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 16px;
     margin: 0 0 0 30px;
     display: block;
     pointer-events: none;
@@ -110,11 +119,11 @@ body {
     width: 50%;
     cursor: pointer;
     outline: none;
-    background: transparent;
+    background-color: #4c5262;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 40px;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 45px;
     transition: all 0.4s;
