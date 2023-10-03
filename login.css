@@ -45,7 +45,7 @@ body{
     position: relative;
     /*width: 180px;*/
     margin: 12px 5px;
-    --accent-color: #a3e583;
+    --accent-color: #92d770;
 }
 
 .form .inputField:before {
